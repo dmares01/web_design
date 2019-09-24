@@ -38,3 +38,17 @@ footer{
 footer a{
     font-size: 13px;
 }
+.image_holder{
+    display: block;
+    margin: 1em auto;
+    width: 200px;
+    height: 200px;
+}
+.square_img{
+    width: 100%;
+}
+.tree:hover{
+    transform: translateY(-2px);
+    box-shadow: 5px 5px 10px #777;
+    transition: transform .5s, box-shadow .5s;
+}
