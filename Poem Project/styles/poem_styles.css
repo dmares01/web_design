@@ -31,6 +31,9 @@ a{
     top: 100px;
     float: right;
 }
+.forward:hover{
+    background-image: url(../images/hummingbird_forward_hover.png);
+}
 .back{
     background-image: url(../images/hummingbird_backward.png);
     text-align: center;
@@ -39,4 +42,37 @@ a{
     position: relative;
     top: 100px;
     float: left;
+}
+.back:hover{
+    background-image: url(../images/hummingbird_backward_hover.png);
+}
+.clear{
+    clear: both;
+    width: 20%;
+    margin: auto;
+}
+.arrow{
+    display: block;
+    height: 100px;
+    padding-left: 10px;
+    width: auto;
+    margin: auto;
+    position: relative;
+    top: -50px;
+}
+#hover_arrow{
+    display: none;
+}
+.clear:hover #default_arrow{
+    display: none;
+}
+.clear:hover #hover_arrow{
+    display: block;
+}
+.continue{
+    margin: auto;
+    width: 100%;
+}
+.clear:hover .continue{
+    color: #358425;
 }
