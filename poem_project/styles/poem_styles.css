@@ -22,17 +22,51 @@ a{
     text-decoration: none;
     color: inherit;
 }
-.forward{
-    background-image: url(../images/hummingbird_forward.png);
-    text-align: center;
+/* Navigation Arrow Forward */
+.forward_container{
     position: relative;
     width: 100px;
     height: 100px;
     top: 100px;
     float: right;
 }
+.forward_container:hover #default_arrow{
+    display: none;
+}
+.forward_container:hover #hover_arrow{
+    display: block;
+}
+.forward_container:hover .forward{
+    background-image: url(../images/hummingbird_forward_hover.png)
+}
+.forward{
+    background-image: url(../images/hummingbird_forward.png);
+    text-align: center;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    float: right;
+}
 .forward:hover{
     background-image: url(../images/hummingbird_forward_hover.png);
+}
+
+
+.back_container{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 100px;
+    float: left;
+}
+.back_container:hover #default_arrow{
+    display: none;
+}
+.back_container:hover #hover_arrow{
+    display: block;
+}
+.back_container:hover .back{
+    background-image: url(../images/hummingbird_backward_hover.png)
 }
 .back{
     background-image: url(../images/hummingbird_backward.png);
@@ -40,7 +74,6 @@ a{
     width: 100px;
     height: 100px;
     position: relative;
-    top: 100px;
     float: left;
 }
 .back:hover{
@@ -53,12 +86,12 @@ a{
 }
 .arrow{
     display: block;
-    height: 100px;
+    height: 75px;
     padding-left: 10px;
     width: auto;
     margin: auto;
     position: relative;
-    top: -50px;
+    top: -25px;
 }
 #hover_arrow{
     display: none;
