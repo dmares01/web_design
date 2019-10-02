@@ -30,10 +30,10 @@ a{
     top: 100px;
     float: right;
 }
-.forward_container:hover #default_arrow{
+.forward_container:hover #default_forward_arrow{
     display: none;
 }
-.forward_container:hover #hover_arrow{
+.forward_container:hover #hover_forward_arrow{
     display: block;
 }
 .forward_container:hover .forward{
