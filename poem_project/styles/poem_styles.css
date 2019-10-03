@@ -158,7 +158,7 @@ a{
 .opener{
     font-size: 30px;
 }
-@media only screen and (max-width: 1400px){
+@media only screen and (min-width: 600px) and (max-width: 1400px){ /*styling changes for laptop screens */
 
     .forward_container{
         top: -150px;
@@ -186,6 +186,23 @@ a{
     }
     .opener{
         font-size: 20px;
+    }
+}
+@media only screen and (max-width: 600px)  {/* styling for mobile webpages */
+    #home-btn, #home-btn-hover{
+        position: absolute;
+        bottom: -20px;
+        left: 0;
+        width: 400px;
+        height: auto;
+    }
+    #page-number{
+        bottom: 50px;
+        right: 20px;
+        line-height: 200px;
+        height: 200px;
+        width:  200px;
+        border-radius: 100px;
     }
 }
 /*
