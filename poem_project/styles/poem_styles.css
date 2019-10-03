@@ -5,13 +5,25 @@ header{/* Style for the home page */
 }
 h1{/* Style poem title and author name on each page*/
     margin: 80px auto;
-    font-size: 40px;
+    font-size: 60px;
     text-align: center;
+    color: white;
+    border-radius: 20px;
+    background-color: #777777;
+    width: 55%;
+}
+h1:hover{
+    color: #00AD1D;
 }
 p{/* style for poem text */
+    color: white;
+    border-radius: 20px;
+    background-color: #777777;
+    width: 40%;
+    height: 150px;
+    margin: auto;
     text-align: center;
-    font-size: 30px;
-    height: 80px;
+    font-size: 40px;
 }
 a{
     /* 
@@ -20,14 +32,13 @@ a{
         possibly use canvas
     */
     text-decoration: none;
-    color: inherit;
 }
 /* Navigation Arrow Forward */
 .forward_container{
     position: relative;
     width: 100px;
     height: 100px;
-    top: 100px;
+    top: -50px;
     float: right;
 }
 .forward_container:hover #default_forward_arrow{
@@ -56,7 +67,7 @@ a{
     width: 100px;
     height: 100px;
     position: relative;
-    top: 100px;
+    top: -50px;
     float: left;
 }
 .back_container:hover #default_arrow{
@@ -93,7 +104,7 @@ a{
     position: relative;
     top: -25px;
 }
-#hover_arrow{
+#hover_arrow, #hover_forward_arrow{
     display: none;
 }
 .clear:hover #default_arrow{
@@ -143,6 +154,9 @@ a{
 }
 #page-number:hover{
     background-color: #00AD1D;
+}
+.opener{
+    font-size: 30px;
 }
 /*
 .tooltip {
