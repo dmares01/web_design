@@ -158,6 +158,36 @@ a{
 .opener{
     font-size: 30px;
 }
+@media only screen and (max-width: 1400px){
+
+    .forward_container{
+        top: -150px;
+    }
+    .back_container{
+        top: -150px;
+    }
+    #home-btn, #home-btn-hover{
+        position: absolute;
+        bottom: -20px;
+        left: 0;
+        width: 200px;
+        height: auto;
+    }
+    #page-number{
+        display: inline;
+        position: absolute;
+        bottom: 10px;
+        right: 20px;
+        line-height: 50px;
+        height: 50px;
+        width:  50px;
+        background-color: gray;
+        border-radius: 25px;
+    }
+    .opener{
+        font-size: 20px;
+    }
+}
 /*
 .tooltip {
     position: relative;
