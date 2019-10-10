@@ -1,0 +1,43 @@
+body{
+    width: 80%;
+    margin: auto;
+}
+header{
+    background-color: darkgreen;
+    width: 100%;
+    text-align: center;
+    font-size: 3em;
+}
+main{
+    background-color: lightgreen;
+    padding-top: 20px;
+    width: 100%;
+}
+article{
+    background-color: green;
+    width: 40%;
+    height: 250px;
+    margin: 20px 10px 10px 10px;
+}
+footer{
+    text-align: center;
+    background-color: #555;
+    clear: both;
+    font-size: 3em;
+}
+#box1{
+    float: left;
+}
+#box2{
+    float: right;
+}
+#box3{
+    float: left;
+}
+#box4{
+    float: right;
+}
+#box_container{
+    background-color: grey;
+    padding: 5px;
+}
