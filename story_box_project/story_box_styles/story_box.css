@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    position: fixed;
+    right: 0;
+    height: 100%;
+    background-color: red;
+}
+ul, li{
+    height: 100%;
+    width: 100%;
+    padding: 0;
+}
+ul{
+    margin: 0;
+}
+nav{
+    height: 100%;
+}
+.nav-button{
+    height: 30%;
+    width: 100%;
+    margin: 10px 0;
+    list-style: none;
+    background-color: green;
+}
+.nav-button:hover{
+    background-color: darkgreen;
+}
+.page-link{
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+}
