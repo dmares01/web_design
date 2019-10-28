@@ -1,5 +1,8 @@
-* {
+*{
     box-sizing: border-box;
+}
+html{
+    background-color: lightgrey;
 }
 body{
     margin: 0;
@@ -8,9 +11,11 @@ body{
 
 header{
     position: fixed;
+    padding: 10px;
     right: 0;
+    width: 190px;
     height: 100%;
-    background-color: red;
+    background-color: lightgrey;
 }
 ul, li{
     height: 100%;
@@ -24,18 +29,67 @@ nav{
     height: 100%;
 }
 .nav-button{
+    border-radius: 40px;
     height: 30%;
     width: 100%;
     margin: 10px 0;
     list-style: none;
-    background-color: green;
+    background-color: #AB00B3;
 }
 .nav-button:hover{
-    background-color: darkgreen;
+    background-color: #F733FF;
+}
+.current-page{
+    pointer-events: none;
+    color: grey;
+    background-color: grey;
 }
 .page-link{
     display: block;
+    font-size: 2em;
     height: 100%;
     width: 100%;
+    color: white;
+    text-align: center;
+    line-height: 100px;
     text-decoration: none;
+}
+.homepage{
+    font-size: 2em;
+    padding: 10px;
+}
+main{
+    //background-color: #94FF4D;
+}
+hr{
+    width: 98%;
+}
+.profile{
+    font-size: 18px;
+    text-decoration: none;
+    display: block;
+    background-color: white;
+    margin: auto;
+    width: 125px;
+    border-radius: 200px;
+    position: relative;
+    text-align: center;
+    bottom: 35px;
+}
+.push-from-right{
+    margin-right: 175px;
+}
+.image-gallery{
+    margin-top: 50px;
+    width: 100%;
+    height: 400px;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    white-space: nowrap;
+}
+.gallery{
+    margin: 0 20px;
+    display: inline;
+    width: 400px;
+    height: 400px;
 }
