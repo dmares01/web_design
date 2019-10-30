@@ -79,6 +79,7 @@ hr{
 .push-from-right{
     margin-right: 175px;
 }
+/* Index Page Styling */
 .image-gallery{
     margin-top: 50px;
     width: 100%;
@@ -92,4 +93,45 @@ hr{
     display: inline;
     width: 400px;
     height: 400px;
+}
+/* Storybox styling*/
+.wrapper{
+    width: 85%;
+    margin: auto;
+}
+.text-wrapper{
+    text-align: center;
+    padding: 5px;
+}
+.storybox{
+    width: 400px;
+    height: 380px;
+    background-color: white;
+    float: left;
+    margin: 10px 10px 25px 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.storybox-image{
+    display: block;
+    width: 100%;
+    height: 300px;
+}
+.storybox-text{
+    margin: 0;
+    padding: 10px;
+    width: 400px;
+    height: 300px;
+    display: none;
+    text-align: center;
+    line-height: 30px;
+    font-size: 20px;
+}
+.storybox:hover .storybox-text{
+    display: block;
+}
+.storybox:hover .storybox-image{
+    display: none;
+}
+.clear{
+    clear: both;
 }
