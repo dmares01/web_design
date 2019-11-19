@@ -6,9 +6,9 @@ So far in this course I have learned and worked with a lot more html than I ever
 
 Feel free to check out my webpage at [dma.hamline.edu/~dmares01](dma.hamline.edu/~dmares01). Any updates I make should be posted to the server within 48 hours. Please feel free to email me with critiques or ideas at dmares01@hamline.edu. The whole point of this class is to learn and refine my skills so I will gladly take any and all feedback.
 
-##Expanded Poem Project
+## Expanded Poem Project
 For this project we had to take a poem we enjoyed and divide it out by lines over multiple webpages. We tried to expand the meaning of the poem by using various images in the background. These visuals were meant to add some depth to the poem, or mayb e lead the user to interpret it in a different way. There were a view different ways to implement this. Due to my background I focused very heavily on the UI and didn't put as much focus onto the images or text as I should have.
 
 I took the course to work on my design skills, yet I had pretty much ignored the design aspect of the project. So in hindsight I learned my lesson and tried to change that moving forward. Fortunately because of this project I was able to learn a lot about relative links, how to have a site divided into multiple pages, as well as more practice uploading things to a server. Moving forward I would like to set up my own server, and get a domain name as well. I have a domain name now but I am having trouble trying to get it to link to the webpage I have set up.
 
-##Storyblock Articles
+## Storyblock Articles
