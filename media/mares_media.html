@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+            body{
+                background-color:#333;
+            }
+            header{
+                margin: auto;
+                width: 300px;
+                text-align: center;
+            }
+            .videoContainer{
+                margin: auto;
+                width: 600px;
+            }
+            .videoContainer iframe{
+                margin: auto;
+            }
+            .videoContainer video{
+                width: 400px;
+                margin: auto;
+            }
+            .videoContainer p{
+                color: white;
+                text-align: center;
+            }
+		</style>
+	</head>
+	<body>
+        <header>
+            <h1>Mares Media</h1>
+        </header>
+        <div class="videoContainer">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/tpIctyqH29Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            
+            <p>A video from the crash course computer science series on youtube</p>
+        </div>
+        <div class="videoContainer">
+            <video controls autoplay width="400" height="400">
+                <source src="blizzard.mp4" type="video/mp4">
+                Your browser does not support MP4 playback
+            </video>
+            <p>This video is of a blizzard. Please enjoy the snow and craziness</p>
+        </div>
+	</body>
+</html>
