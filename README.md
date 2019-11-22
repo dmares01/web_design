@@ -7,7 +7,7 @@ So far in this course I have learned and worked with a lot more html than I ever
 Feel free to check out my webpage at [dma.hamline.edu/~dmares01](dma.hamline.edu/~dmares01). Any updates I make should be posted to the server within 48 hours. Please feel free to email me with critiques or ideas at dmares01@hamline.edu. The whole point of this class is to learn and refine my skills so I will gladly take any and all feedback.
 
 ## Yggradisal Project
-Put description of project here
+This project was the first project I did for the DMA class. It was initially made to work with relative linking, and having multiple html pages instead of just a single page as I've done in the past. Having never used relative linking or having a place on a server to store files, I never realized how useful it could be. Having things split up into multiple pages vastly decreases load times, especially when the user may not need all of the information anyways. In the past I would just use javascript to hide elements not being used until the user clicked, indicating they wanted to view the information. While this then appears faster for the user as it is already loaded. It has a great impact on that initial load time.
 
 ## Expanded Poem Project
 For this project we had to take a poem we enjoyed and divide it out by lines over multiple webpages. We tried to expand the meaning of the poem by using various images in the background. These visuals were meant to add some depth to the poem, or mayb e lead the user to interpret it in a different way. There were a view different ways to implement this. Due to my background I focused very heavily on the UI and didn't put as much focus onto the images or text as I should have.
