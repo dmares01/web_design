@@ -97,7 +97,8 @@ hr{
 }
 /* Storybox styling*/
 .wrapper{
-    width: 85%;
+    max-width: 900px;
+    /*min-width: 450px;*/
     margin: auto;
 }
 .text-wrapper{
@@ -109,7 +110,7 @@ hr{
     height: 380px;
     background-color: white;
     float: left;
-    margin: 10px 10px 25px 10px;
+    margin: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .storybox-image{
@@ -159,4 +160,16 @@ footer{
     position: absolute;
     bottom: 0;
     right: 0;
+}
+
+@media only screen and (max-width: 850px){
+    .storybox{
+        margin: 10px auto;
+    }
+    .push-from-right{
+        background-color: red;
+    }
+    .wrapper{
+        margin: auto;
+    }
 }
