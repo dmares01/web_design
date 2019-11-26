@@ -1,0 +1,76 @@
+html{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+}
+header{
+    background-image: url(" ");
+    width: 100%;
+    height: 200px;
+}
+header h1{
+    text-align: center;
+    line-height: 100px;
+}
+header p{
+    text-align: center;
+    line-height: 50px;
+}
+nav {
+    position: sticky;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    margin: auto;
+    background-color: orange;
+}
+nav a{
+    text-decoration: none   ;
+}
+nav ul, nav li{
+    list-style: none;
+}
+nav ul{
+    margin: auto;
+    width: 90%;
+    padding: 0;
+}
+nav li{
+    float: left;
+    width: 30%;
+    margin: auto;
+    text-align: center;
+}
+nav li:hover{
+    background-color: darkorange;
+}
+nav .menu-item{
+    text-align: center;
+    float: left;
+    width: 10%;
+}
+.current-page{
+
+}
+.hamburger{
+    display: block;
+    height: 50px;
+    width: 50px;
+    margin: auto;
+}
+.menu-hover{
+    display: none;
+}
+.menu-hover:hover{
+    display: block;
+    z-index: 1;
+}
+.displaced{
+    position: relative;
+}
+.clear{
+    clear: both;
+}
