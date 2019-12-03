@@ -46,7 +46,7 @@ nav ul{
 }
 nav li{
     float: left;
-    width: 33.3%;
+    width: 33.3333333333%;
     margin: auto;
     text-align: center;
 }
@@ -54,6 +54,7 @@ nav li{
 nav li a{
     display: block;
     width: 100%;
+    color: black;
 }
 
 nav li a:hover{
@@ -70,8 +71,8 @@ nav li a:hover{
     float: left;
     display: none;
     position: absolute;
-    background-color: #f9f9f9;
-    width: 27%;
+    background-color: orange;
+    width: 26.5%;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
     z-index: 1;
 }
@@ -84,7 +85,13 @@ nav li a:hover{
     display: block;
     text-align: left;
 }
-
+.menu-item .dropdown-items{
+    width: 5%;
+    word-wrap: break-spaces;
+}
+.menu-item a:hover{
+    background-color: darkorange;
+}
 .dropdown:hover .dropdown-items{
     display: block;
 }
@@ -125,6 +132,6 @@ nav .menu-item{
     clear: both;
 }
 .body-info{
-    margin: 5px;
-    padding: 5px;
+    margin: 10px 20px;
+    padding-top: 30px;
 }
