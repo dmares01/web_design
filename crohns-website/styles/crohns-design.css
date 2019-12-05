@@ -85,8 +85,15 @@ nav li a:hover{
     display: block;
     text-align: left;
 }
+.menu-item{
+    overflow: visible;
+    position: relative;
+}
 .menu-item .dropdown-items{
-    width: 5%;
+    overflow: visible;
+    position: absolute;
+    right: 5px;
+    width: 150%;
     word-wrap: break-spaces;
 }
 .menu-item a:hover{
@@ -133,5 +140,5 @@ nav .menu-item{
 }
 .body-info{
     margin: 10px 20px;
-    padding-top: 30px;
+    padding-top: 35px;
 }
