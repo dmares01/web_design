@@ -122,7 +122,10 @@ nav .menu-item{
 .menu-hover{
     display: none;
 }
-.menu-hover:hover{
+.menu-item:hover #hamburger{
+    display: none;
+}
+.menu-item:hover .menu-hover{
     display: block;
     z-index: 1;
 }
