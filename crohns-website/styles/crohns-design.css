@@ -6,6 +6,8 @@ html{
 body{
     margin: 0;
 }
+
+/* Header */
 header{
     /*background-image: url(" ");*/
     width: 100%;
@@ -24,11 +26,16 @@ header p{
 
 
 
+
+
+
+
 /* Navbar */
 nav{
     position: sticky;
     top: 0;
     width: 100%;
+    z-index: 2;
     height: 50px;
     line-height: 50px;
     margin: auto;
@@ -134,6 +141,7 @@ nav .menu-item{
 
 
 
+
 /* Everything Else */
 body{
     background-color: #eeeeee;
@@ -153,6 +161,16 @@ footer{
     background-color: red;
 }
 
+.flare-up{
+    font-weight: 700;
+    font-style: italic;
+    /*text-decoration: none;*/
+    color: #000;
+}
+
+
+
+
 
 /* Section Styling */
 section{
@@ -167,19 +185,49 @@ section{
 section h2{
     font-size: 3.5em;
 }
+section h3{
+    font-size: 2.0em;
+}
 
 section p{
     float: left;
     width: 800px;
     font-size: 1.5em;
+    box-sizing: border-box;
+}
+section li{
+    font-size: 1.5em;
 }
 
+
+
+/* Symptom Styling */
+.symptom h3{
+    margin: 20px auto 0;
+    float: none
+}
+
+.symptom p{
+    float: none;
+    margin-top: 0;
+    padding-left: 30px;
+}
+
+
+
+/* Aside styling */
 section aside{
     box-sizing: border-box;
     float: right;
     width: 400px;
     padding: 20px;
     /*background-color: red;*/
+}
+section aside p{
+    margin-top: 0;
+    width: 100%;
+    font-size: 1em;
+    text-align: center;
 }
 
 section aside img{
@@ -189,12 +237,7 @@ section aside img{
 
 }
 section aside img:hover{
-    transform: scale(1.5);
+    transform: scale(1.5) translateX(-50px);
     transition: transform .1s ease-in-out;
+    z-index: 1;
 }
-/*
-@keyframes  scale-image{
-    from {transform: scale(1.0)}
-    to{transform: scale(1.5)}
-}
- */
