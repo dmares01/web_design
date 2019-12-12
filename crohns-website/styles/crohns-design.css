@@ -204,11 +204,13 @@ section li{
 /* Symptom Styling */
 .symptom h3{
     margin: 20px auto 0;
-    float: none
+    float: left;
+    width: 800px;
 }
 
 .symptom p{
     float: none;
+    width: 800px;
     margin-top: 0;
     padding-left: 30px;
 }
