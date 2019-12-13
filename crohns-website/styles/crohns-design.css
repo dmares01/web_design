@@ -10,7 +10,7 @@ body{
 /* Header */
 header{
     /*background-image: url(" ");*/
-    width: 100%;
+    min-width: 1200px;
     height: 200px;
 }
 header h1{
@@ -34,7 +34,7 @@ header p{
 nav{
     position: sticky;
     top: 0;
-    width: 100%;
+    min-width: 1200px;
     z-index: 2;
     height: 50px;
     line-height: 50px;
@@ -250,4 +250,16 @@ section aside img:hover{
     transform: scale(1.5) translateX(-50px);
     transition: transform .1s ease-in-out;
     z-index: 1;
+}
+
+@media screen and (max-width: 600px){
+    html{
+        min-width: 200px;
+    }
+    body{
+        min-width: 200px;
+    }
+    nav{
+        width: 100%;
+    }
 }
